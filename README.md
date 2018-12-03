@@ -4,7 +4,7 @@
 
 
 
-============================================================
+==================================================================================
 $(document).on("click", ".MyLink", function (e) {
     var link = $(this).attr("href"); // "get" the intended link in a var
     e.preventDefault();
